@@ -1,0 +1,181 @@
+{
+  "posts": [
+    {
+      "url":"https://images-static.nykaa.com/uploads/64d93257-a20b-4eab-a461-cc4d829fdb2b.jpg?tr=w-600,cm-pad_resize",
+
+      "title": "Last Chance To Grab These Offers!",
+      
+      "para": "Up to 40% Off"
+    },
+
+    {"url":"https://images-static.nykaa.com/uploads/9a48b248-c665-4405-8491-d76a1f149d62.jpg?tr=w-600,cm-pad_resize",
+
+    "title": "Up to 35% Off",
+    
+    "para": "Face Makeup that Fits Me As I Am!"
+
+    },
+    {"url":"https://images-static.nykaa.com/uploads/48dd9cee-eecc-47a6-89c3-85c58c712861.png?tr=w-600,cm-pad_resize",
+
+    "title": "Buy 2 Get 1 Free Gift",
+    
+    "para": "upto 10% Off"
+
+    }
+    ,
+    {"url":"https://images-static.nykaa.com/uploads/81a37e3d-e0f5-47f9-ae89-ca88a8751ef6.jpg?tr=w-600,cm-pad_resize",
+
+    "title": "Buy 2 Get 1 Free",
+    
+    "para": "Flat 10% Off On Singles"
+
+    },
+    {"url":"https://images-static.nykaa.com/uploads/2f17d8c6-3b59-4d41-a13e-aaa13e444c03.jpg?tr=w-600,cm-pad_resize",
+
+    "title": "Buy 30% Off + Free Face Wash",
+    
+    "para": "Worth Rs. 139 On 699"
+
+    },
+
+    {"url":"https://images-static.nykaa.com/uploads/4964842b-48b6-44b9-ae12-4a852a8e4a52.jpg?tr=w-600,cm-pad_resize",
+
+    "title": "Best Seller Minis Satring At Rs 425",
+    
+    "para": "Worth Rs. 139 On 699"
+
+    }
+    
+  ],
+  
+    "posts2":[
+
+      {
+        "url":"https://images-static.nykaa.com/uploads/ee34ad92-7346-4ddf-8cce-d42ea56a12c3.jpg?tr=w-600,cm-pad_resize",
+
+      "title": "Last Chance To Grab These Offers!",
+      
+      "para": "Up to 40% Off"
+
+      },
+      {
+      "url":"https://images-static.nykaa.com/uploads/2d49b672-a730-4fd0-ba5b-772c0c3713fc.jpg?tr=w-600,cm-pad_resize",
+
+      "title": "Last Chance To Grab These Offers!",
+      
+      "para": "Up to 40% Off"
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/7257d2a6-8d3f-4abb-9fb9-2f0f410d7bc6.jpg?tr=w-600,cm-pad_resize",
+
+      "title": "Last Chance To Grab These Offers!",
+      
+      "para": "Up to 40% Off"
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/1c964351-806b-459c-a7f9-2e6bc55e1594.jpg?tr=w-600,cm-pad_resize",
+
+        "title": "Last Chance To Grab These Offers!",
+        
+        "para": "Up to 40% Off"
+      }
+
+
+    ],
+
+    "products" : [
+      {
+        "url":"https://images-static.nykaa.com/uploads/0769ac4a-3dda-45bb-9995-bae2c2c41925.png?tr=w-200,cm-pad_resize",
+
+        "orignal": "Upto 40% Off",
+        "price": "On Entire Range",
+       "dis": "Extra-10% Off"
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/1208f0cc-cb69-4c28-8aa7-fe8da2dc1ad4.jpg?tr=w-200,cm-pad_resize",
+
+        "orignal": "Upto 40% Off",
+        "price": "On Entire Range",
+       "dis": "Extra-10% Off"
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/6b958240-0ddf-43dc-a58a-26dcf33fdce9.jpg?tr=w-200,cm-pad_resize",
+
+        "orignal": "Buy 1 Get 1...",
+        "price": "Upto 40% Off...",
+       "dis": "Extra-10% Off"
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/7b89b8d2-4e4a-4fd9-8a7f-c46422eb0190.jpg?tr=w-200,cm-pad_resize",
+
+        "orignal": "Upto 20% Off",
+        "price": "On Entire Range",
+       "dis": "Extra-10% Off"
+      },
+      
+        
+
+        {
+          "url":"https://images-static.nykaa.com/uploads/ee16475a-cfb5-4edd-b6ed-418980bfdd87.jpg?tr=w-200,cm-pad_resize",
+          "orignal": "Upto 50% Off",
+          "price": "On Selected Range",
+         "dis": "Extra-10% Off"
+        },
+
+       
+        {
+          "url":"https://images-static.nykaa.com/uploads/2aa658b5-e647-4013-99df-1d21a6ebf010.jpg?tr=w-200,cm-pad_resize",
+          "orignal": "Upto 30% Off",
+          "price": "On Selected Range",
+         "dis": ""
+        },
+        {
+          "url":"https://images-static.nykaa.com/uploads/9543baff-6b4e-4d1d-ab9c-e7bded753c9c.jpg?tr=w-200,cm-pad_resize",
+  
+          "orignal": "Upto 30% Off",
+           "price": "On Entire Range",
+          "dis": "Extra-10% Off"
+        },
+
+        {
+          "url":"https://images-static.nykaa.com/uploads/537d01bd-9539-4842-9af9-05c66ed967ea.jpg?tr=w-200,cm-pad_resize",
+  
+          "orignal": "Upto 60% Off",
+          "price": "Face Creams...",
+         "dis": "Extra-10% Off"
+        }
+
+      
+    ],
+    "Influencer" : [
+      {
+        "url":"https://images-static.nykaa.com/uploads/e6a9f44b-a549-4c78-85e1-7428916706f4.jpg?tr=w-240,cm-pad_resize",
+
+        "name": "The Cister Co's ",
+        "surname": "Luxe Favourites"
+       
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/b4186528-2d22-4619-b7c0-ac2fd5ef6317.jpg?tr=w-240,cm-pad_resize",
+
+        "name": "Gia Kashyap's",
+        "surname": "Winter Skin Essentials"
+       
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/d280aeca-f662-4b26-9c0c-ca649bb658b2.jpg?tr=w-240,cm-pad_resize",
+
+        "name": "Muskan Chanchalani ",
+        "surname": "Wedding Get Ready"
+      },
+      {
+        "url":"https://images-static.nykaa.com/uploads/9c88131e-b0c2-4d62-8295-8dad1801b17a.jpg?tr=w-240,cm-pad_resize",
+
+        "name": "Shantu's",
+        "surname": "Party Season"
+      }]
+   
+    
+  }
+
+
