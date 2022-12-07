@@ -172,9 +172,11 @@ li {
   border-bottom: 1px solid #f4f4f4;
   font-size: 17px;
   background-color: #f4f4f4;
-  padding: 12px;
+  padding: 8px;
   vertical-align: middle;
   margin-right: 0;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .second-search {
   border-left: none;
@@ -187,6 +189,8 @@ li {
   margin-right: 30px;
   margin-left: 0;
   outline: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .second-SAC {
   display: flex;
@@ -258,6 +262,7 @@ li {
   display: grid;
   grid-template-columns: 35% 65%;
   display: none;
+  z-index: +1;
 }
 .leftBrands-box {
   background-color: white;
@@ -371,6 +376,7 @@ li {
   left: 12.5%;
   display: none;
   background-color: white;
+  z-index: +1;
 }
 .navigate-nykaaFashion {
   display: flex;
@@ -599,6 +605,7 @@ li {
   align-items: center;
   display: none;
   background-color: white;
+  z-index: +1;
 }
 .beauty-advice-box > a > div {
   width: 240px;
@@ -828,7 +835,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid rgb(177, 174, 174);
   font-size: 14px;
   background-color: #fff;
 }
@@ -850,11 +857,15 @@ li {
   display: grid;
   grid-template-columns: repeat(6, 16.67%);
   position: absolute;
-  top: 92%;
+  top: 18%;
   width: 75%;
   left: 12.5%;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(159, 155, 155);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
   border-top: none;
+  z-index: +1;
 }
 .thirdbar-mulboxes > div {
   display: flex;
@@ -943,4 +954,148 @@ li {
   word-wrap: normal;
   direction: ltr;
   -webkit-font-smoothing: antialiased;
+}
+#signbtn {
+  width: 80px;
+  height: 44px;
+  background-color: #f748a4;
+  color: #f1f1f1;
+  text-align: center;
+  font-weight: 700;
+  border: 0px;
+  border-radius: 10px;
+  display: block;
+}
+#userbtn {
+  border: 0px;
+  background-color: white;
+  display: none;
+}
+#userlogo {
+  width: 20px;
+  margin-right: 10px;
+}
+#divbox {
+  display: flex;
+  align-items: baseline;
+  border: 2px solid #ff075b2e;
+  text-align: center;
+}
+#img_div {
+  width: 170px;
+  height: 150px;
+}
+#sideimg {
+  width: 80%;
+}
+#pro_price_del {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-weight: 600;
+  font-size: 15px;
+}
+#pro_name {
+  font-size: 12px;
+  font-weight: 600;
+}
+#pro_del {
+  background-color: #fc2779;
+  color: #ffffff;
+  border-radius: 60px;
+  width: 36px;
+  height: 33px;
+  border: 0px;
+}
+.offcanvas-header-my {
+  display: flex;
+  align-items: baseline;
+}
+#processdiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+#prcbtn {
+  border: 0px;
+  background-color: #fc2779;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+#prcbtn:hover {
+  cursor: pointer;
+  border: 0px;
+  background-color: #760631;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+#cartitems {
+  color: #ff1d44;
+  font-weight: 600;
+}
+#pro_del:hover {
+  cursor: pointer;
+  border: 0px;
+  background-color: #760631;
+}
+#noitems {
+  margin-top: 100%;
+  text-align: center;
+}
+#userbar {
+  display: none;
+  z-index: 1;
+  padding-top: 0;
+  left: 0;
+  top: 0;
+  width: 10%;
+  height: 20%;
+  overflow: auto;
+  background-color: rgb(255 255 255);
+  margin-left: 70%;
+  margin-top: 5%;
+  border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#userbar > p:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #fc2779;
+  font-size: larger;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#search_img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+#pr_div {
+  display: flex;
+  border-bottom: 2px solid black;
+  margin-top: 2%;
+}
+
+#pr_div:hover {
+  background-color: #fc2779;
+  color: white;
+  cursor: pointer;
+}
+#search_result {
+  display: none;
+  z-index: 1;
+  background-color: #f1f1f1;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: auto;
+  position: fixed;
 }

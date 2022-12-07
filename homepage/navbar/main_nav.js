@@ -1,11 +1,21 @@
 import { navbar } from "./module/nav.js";
 let header = document.getElementById("header");
 header.innerHTML = navbar();
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+//Footer Script//
+import { footer } from "./module/footer.js";
+let footerdisplay = document.getElementById("footerdiv");
+footerdisplay.innerHTML = footer();
 
 //Nykaa Dhamaka Flash Line
 let nykaa_dhamaka = document.getElementById("nykaa-dhamaka");
 let flag = true;
+let loginstatus = localStorage.getItem("loginstatus");
 
+if (loginstatus == undefined) {
+  localStorage.setItem("loginstatus", 0);
+}
 setInterval(() => {
   if (flag == true) {
     nykaa_dhamaka.style.opacity = "0";
@@ -339,7 +349,164 @@ function HIDEluxe_Box() {
   Luxe_box.style.display = "none";
 }
 
-//Footer Script//
-import { footer } from "./module/footer.js";
-let footerdisplay = document.getElementById("footerdiv");
-footerdisplay.innerHTML = footer();
+//offcanvas-body
+function sidecart() {
+  document.querySelector(".offcanvas-body").innerHTML = "";
+  cart.forEach((element, index) => {
+    let div = document.createElement("div");
+    div.setAttribute("id", "divbox");
+    let div1 = document.createElement("div");
+    div1.setAttribute("id", "img_div");
+    let img = document.createElement("img");
+    img.setAttribute("id", "sideimg");
+    img.src = element.img1;
+    let div2 = document.createElement("div");
+    div2.setAttribute("id", "pro_div");
+    let title = document.createElement("p");
+    title.setAttribute("id", "pro_name");
+    title.innerText = element.name;
+    let div3 = document.createElement("div");
+    div3.setAttribute("id", "pro_price_del");
+    let price = document.createElement("p");
+    price.setAttribute("id", "pro_price");
+    price.innerText = "Price:" + "₹ " + element.price;
+    let del = document.createElement("button");
+    del.setAttribute("id", "pro_del");
+    del.innerText = "X";
+    del.addEventListener("click", function () {
+      remove(index);
+    });
+    div3.append(price, del);
+    div2.append(title, div3);
+    div1.append(img);
+    div.append(div1, div2);
+    document.querySelector(".offcanvas-body").append(div);
+  });
+  let proceed = document.createElement("div");
+  proceed.setAttribute("id", "processdiv");
+  let prcbtn = document.createElement("button");
+  prcbtn.setAttribute("id", "prcbtn");
+  prcbtn.innerText = "Proceed to Payment >>>";
+  proceed.append(prcbtn);
+  proceed.addEventListener("click", function () {
+    window.location.href = "./cart/cart.html";
+  });
+  document.querySelector(".offcanvas-body").append(proceed);
+}
+function emptycart() {
+  let div = document.createElement("div");
+  div.setAttribute("id", "noitems");
+  let h = document.createElement("h5");
+  h.innerText = "Opps!!! There are no items....";
+  let shopbtn = document.createElement("button");
+  shopbtn.setAttribute("id", "prcbtn");
+  shopbtn.innerText = "Continue Shopping";
+  shopbtn.addEventListener("click", function () {
+    window.location.href = "./mainPage.html";
+  });
+  div.append(h, shopbtn);
+  document.querySelector(".offcanvas-body").append(div);
+}
+if (cart.length >= 1) {
+  sidecart();
+} else {
+  emptycart();
+}
+
+function remove(index) {
+  cart.splice(index, 1);
+  localStorage.setItem("cart", JSON.stringify(cart));
+  sidecart(cart);
+  document.querySelector("#cartqty").innerText = "(" + cart.length + ")";
+  if (cart.length == 0) {
+    document.querySelector(".offcanvas-body").innerHTML = "";
+    emptycart();
+  }
+  if (cart.length > 0) {
+    document.querySelector("#cartitems").innerText = cart.length;
+  }
+}
+document.querySelector("#cartqty").innerText = "(" + cart.length + ")";
+if (cart.length > 0) {
+  document.querySelector("#cartitems").innerText = cart.length;
+}
+let hidesignbtn = document.getElementById("signbtn");
+let showuserbtn = document.getElementById("userbtn");
+let useroption = document.getElementById("userbar");
+let signout = document.getElementById("signout");
+/// Login Status
+if (loginstatus == 0) {
+  hidesignbtn.style.display = "block";
+  showuserbtn.style.display = "none";
+} else {
+  let username = localStorage.getItem("username");
+  document.querySelector("#username").innerText = username;
+  hidesignbtn.style.display = "none";
+  showuserbtn.style.display = "flex";
+  showuserbtn.addEventListener("mouseover", function () {
+    useroption.style.display = "block";
+  });
+  useroption.addEventListener("mouseover", function () {
+    useroption.style.display = "block";
+  });
+  useroption.addEventListener("mouseleave", function () {
+    useroption.style.display = "none";
+  });
+  signout.addEventListener("click", function () {
+    localStorage.setItem("loginstatus", 0);
+    localStorage.setItem("username", "");
+    window.location.href = "./index.html";
+  });
+}
+let debouncedata;
+let st_debounce = setTimer(() => search());
+document.querySelector(".second-search").addEventListener("input", st_debounce);
+let search = async () => {
+  let input = document.querySelector(".second-search").value;
+  console.log(input);
+  let url = `https://nyka-json-server.onrender.com/data`;
+  let responce = await fetch(url);
+  let data = await responce.json();
+  debouncedata = data;
+  debouncedata = sortdata(debouncedata, input);
+  console.log(debouncedata);
+  document.querySelector("#search_result").style.display = "block";
+  displaybox(debouncedata);
+};
+function displaybox(data) {
+  document.querySelector("#search_result").innerText = "";
+  for (let i = 0; i < 5; i++) {
+    let element = data[i];
+    let div = document.createElement("div");
+    div.setAttribute("id", "pr_div");
+    let img = document.createElement("img");
+    img.setAttribute("id", "search_img");
+    img.src = element.img1;
+    let p = document.createElement("p");
+    p.setAttribute("id", "search_name");
+    p.innerText = element.name;
+    div.addEventListener("click", function () {
+      localStorage.setItem("prdetails", JSON.stringify(element));
+      window.location.href = "./product.html";
+    });
+    div.append(img, p);
+    document.querySelector("#search_result").append(div);
+  }
+}
+function sortdata(debouncedata, input) {
+  let data = debouncedata.filter(function (el) {
+    if (el.product_type == input) {
+      return el;
+    }
+  });
+  return data;
+}
+function setTimer(func, timeout = 1000) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      func.apply(this, args);
+    }, timeout);
+  };
+}

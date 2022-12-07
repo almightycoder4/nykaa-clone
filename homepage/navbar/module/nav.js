@@ -2,7 +2,7 @@ function navbar() {
   return `
     <div class="first-bar">
     <div id="nykaa-dhamaka">
-<a href="landingpage.html"><p class="nykaa-dhamaka">BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals</p></a>
+<p class="nykaa-dhamaka">BEAUTY BONANZA Get Your Daily Dose Of Amazing Deals</p>
     </div>        
 
 <ul class="nav-list">
@@ -10,11 +10,17 @@ function navbar() {
     <title>mobile icon</title>
     <g opacity=".92" fill="#000"><path d="M17.25 3.5v17H6.75v-17h10.5zm.5-1.5H6.25a1 1 0 00-1 1v18a1 1 0 001 1h11.5a1 1 0 001-1V3a1 1 0 00-1-1z"></path><path d="M13 6h-2a.75.75 0 110-1.5h2A.75.75 0 1113 6zM12 19.48a1 1 0 100-2 1 1 0 000 2z"></path></g></svg></i> &nbsp;Get App</a></li>
     <li class="vertical-line">|</li>
-    <li><a href="/" class="first-icon"><i class="material-icons">&#xe0c8;</i>&nbsp;Store & Events</a></li>
+    <li><a href="/" class="first-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <title>address icon</title>
+    <g opacity=".92" fill="#000"><path d="M12 8a2.01 2.01 0 110 4 2.01 2.01 0 110-4zm0-1.5a4 4 0 00-.68.06 3.5 3.5 0 00.68 6.93 3.5 3.5 0 000-7v.01z"></path><path d="M12 3.5a6.94 6.94 0 012.22.37 6.53 6.53 0 014.28 6.47 6.6 6.6 0 01-1.78 4.49L12 20.24l-4.7-5.38a6.94 6.94 0 01-1.8-4.65A6.62 6.62 0 0112 3.5zM12 2a8.09 8.09 0 00-8 8.21 8.42 8.42 0 002.15 5.61l5.1 5.83a1.001 1.001 0 001.5 0l5.1-5.83A8.05 8.05 0 0020 10.36a8 8 0 00-5.31-7.91A8.34 8.34 0 0012 2z"></path></g></svg>Store & Events</a></li>
     <li class="vertical-line">|</li>
-    <li><a href="/" class="first-icon"><i class="material-icons">&#xe8f6;</i>&nbsp;Gift Card</a></li>
+    <li><a href="/" class="first-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <title>giftcard icon</title>
+    <g opacity=".92" fill="#000"><path d="M16 15.6h2.2a.6.6 0 000-1.2H16a.6.6 0 000 1.2z"></path><path d="M21 4.5H3a1 1 0 00-1 1v13a1 1 0 001 1h18a1 1 0 001-1v-13a1 1 0 00-1-1zM3.5 6h4.9v1.66a2.12 2.12 0 00-.69-.47 1.9 1.9 0 00-.39-.11 1.75 1.75 0 00-.4 0c-.258 0-.513.05-.75.15a2.12 2.12 0 00-.69.47 2.23 2.23 0 000 3c.078.077.166.144.26.2H3.5V6zM8 10.32a4.709 4.709 0 01-1.7-.45 1 1 0 010-1.38.86.86 0 01.61-.25.85.85 0 01.61.25A4.47 4.47 0 018 10.32zM8.4 18H3.5v-5.9H7l-1.42 1.38a.59.59 0 000 .85.6.6 0 00.84 0l2-2L8.4 18zm12.1 0H9.6v-5.65l2 2a.6.6 0 00.974-.656.59.59 0 00-.134-.194l-1.39-1.4h9.45V18zM10 10.32a5.16 5.16 0 01.46-1.83.85.85 0 01.61-.25.86.86 0 01.61.25 1 1 0 010 1.37 4.42 4.42 0 01-1.68.46zm10.48.58h-8.15a1.45 1.45 0 00.23-.19 2 2 0 00.26-.33 2.22 2.22 0 000-2.38 1.64 1.64 0 00-.26-.33 1.579 1.579 0 00-.32-.27 1.9 1.9 0 00-.37-.2 2.13 2.13 0 00-1.57 0 2.23 2.23 0 00-.69.47V6H20.5l-.02 4.9z"></path></g></svg>Gift Card</a></li>
     <li class="vertical-line">|</li>
-    <li><a href="/" class="first-icon"><i class="material-icons">&#xe8fd;</i>&nbsp;Help</a></li>
+    <li><a href="/" class="first-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <title>help icon</title>
+    <g opacity=".92" fill="#000"><path d="M12 4.5c4.1 0 7.5 3.4 7.5 7.5s-3.4 7.5-7.5 7.5-7.5-3.4-7.5-7.5S7.9 4.5 12 4.5zM12 3c-5 0-9 4-9 9s4 9 9 9 9-4 9-9-4-9-9-9z"></path><path d="M12 16.4a.8.8 0 100-1.6.8.8 0 000 1.6zM12 13.6c-.4 0-.7-.3-.8-.8v-1.4c0-.4.3-.8.8-.8.6 0 1.2-.5 1.2-1.1 0-.6-.5-1.2-1.1-1.2-.6 0-1.2.5-1.2 1.1 0 .4-.3.8-.8.8s-.7-.2-.7-.7c0-1.5 1.2-2.6 2.7-2.6 1.5 0 2.6 1.2 2.6 2.7 0 1.2-.8 2.2-1.9 2.5v.8c-.1.4-.4.7-.8.7z"></path></g></svg>Help</a></li>
 </ul>
 </div>
 
@@ -23,33 +29,47 @@ function navbar() {
 <div class="second-bar">
    
     <ul class="second-navlist">
-      <li> <a href="index.html"><img src="https://th.bing.com/th/id/OIP.FtW_F_xyCB7utV0PyI8FeAHaCb?w=308&h=114&c=7&r=0&o=5&pid=1.7" alt=""  id="nykaa-logo"></a></li>
-       <li><a href="/">CATEGORIES</li></a>
-       <li><a href="ProductNykaaCosmetics.html" class="show-brandbox">BRANDS</a></li>
-       <li><a href="/" class="show-nykaa_fashionBox">NYKAA FASHION</a></li>
-       <li><a href="/" class="Show-nykaa-beautybox">BEAUTY ADVICE</a></li>
+      <li> <a href="../index.html"><img src="https://th.bing.com/th/id/OIP.FtW_F_xyCB7utV0PyI8FeAHaCb?w=308&h=114&c=7&r=0&o=5&pid=1.7" alt=""  id="nykaa-logo"></a></li>
+       <li><a href="./mainPage.html">CATEGORIES</li></a>
+       <li><a href="./mainPage.html" class="show-brandbox">BRANDS</a></li>
+       <li><a href="./mainPage.html" class="show-nykaa_fashionBox">NYKAA FASHION</a></li>
+       <li><a href="./mainPage.html" class="Show-nykaa-beautybox">BEAUTY ADVICE</a></li>
        <li><a href="/">NYKAA NETWORK</a></li>
    </ul>
    
     <div class="second-SAC">
     
     <div class="search__container">
-    <i class="material-icons search-icon">&#xe8b6;</i><input type="text" placeholder="Search on Nykaa" class="second-search">
+    <i class="material-icons search-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.54 19.97L16.3 14.73C17.36 13.44 17.99 11.79 17.99 9.99C17.99 5.85 14.64 2.5 10.5 2.5C6.35 2.5 3 5.85 3 9.99C3 14.13 6.35 17.48 10.49 17.48C12.29 17.48 13.94 16.84 15.23 15.79L20.47 21.03C20.62 21.18 20.81 21.25 21 21.25C21.19 21.25 21.38 21.18 21.53 21.03C21.83 20.74 21.83 20.26 21.54 19.97ZM10.49 15.98C7.19 15.98 4.5 13.29 4.5 9.99C4.5 6.69 7.19 4 10.49 4C13.79 4 16.48 6.69 16.48 9.99C16.48 13.3 13.8 15.98 10.49 15.98Z" fill="black"></path></svg></i><input type="text" placeholder="Search on Nykaa" class="second-search">
+    <div id="search_result"></div>
     </div>
     <div class="Account-BOX">
-        <a id="FOR-Sign" href="http://localhost:5500/Signin.html"><i id="user--icon" class="fa">&#xf2c0;</i><span class="account-text">Account</span></a>
-        <a id="FOR-Logged"><i id="user--icon" class="fa">&#xf2c0;</i><span class="user-name">Ankit</span></a>
-        <div class="PROFILE-NAVIGATE">
-        <a href="profile.html">📑 &nbsp; Orders</a> 
-        <a href="Myprofile.html">웃 &nbsp; Profile</a>
-        <a href="profile.html">⍌ &nbsp; Wallet</a>
-        <a href="Mywish.html">♡ &nbsp; Wishlist</a>
-        <a class="Sign-Out" href="index.html">⊘ &nbsp; Logout</a>
-        </div>
+    <button id="signbtn" onclick="window.location.href='./login/login.html'">Sign in</button>
+    <button id="userbtn" ><img id="userlogo" src="https://www.pngfind.com/pngs/m/93-938050_png-file-transparent-white-user-icon-png-download.png"><a id="username"></a></button>
+    <div id="userbar">
+    <p id="welcomemsg"></p>
+    <p id="myprofile">My Profile</p>
+    <p id="myorder">My Order</p>
+    <p id="address">My Address</p>
+    <p id="signout">Signout</p>
+    </div>
     </div>
     <div>
-        <span class="cart--icon"><i style="font-size:20px" class="fa">&#xf290;</i></span>
-    </div>
+          
+        
+         <span  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="cart--icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.5 7.2H16.2V6.9C16.3 4.5 14.4 2.5 12 2.5C9.6 2.6 7.8 4.5 7.8 6.9V7.2H3.5C2.9 7.2 2.5 7.6 2.5 8.2V16.4C2.5 19.2 4.7 21.4 7.5 21.4H16.5C19.3 21.4 21.5 19.2 21.5 16.4V8.2C21.5 7.7 21.1 7.2 20.5 7.2ZM9.3 6.9C9.3 5.4 10.5 4.1 12 4C13.5 4.1 14.7 5.4 14.7 6.9V7.2H9.3V6.9ZM20 16.5C20 18.4 18.4 20 16.5 20H7.5C5.6 20 4 18.4 4 16.5V8.7H7.8V10.7C7.6 10.9 7.5 11.2 7.5 11.4C7.5 12 8 12.4 8.5 12.4C9 12.4 9.5 11.9 9.5 11.4C9.5 11.1 9.4 10.9 9.2 10.7V8.7H14.6V10.6C14.4 10.8 14.3 11.1 14.3 11.4C14.3 12 14.7 12.5 15.3 12.5C15.9 12.5 16.4 12.1 16.4 11.5C16.4 11.2 16.3 11 16.1 10.8V8.8H20V16.5Z" fill="black"></path></svg></i></span>
+         <a id=cartitems><a>
+         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header-my">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Cart Items</h5>
+            <h6 id="cartqty"><h6>
+            
+          </div>
+          <div class="offcanvas-body">
+          </div>
+        </div>
+   
+        </div>
    
     </div>
 
@@ -1505,3 +1525,6 @@ class="search-resultbox">
 }
 
 export { navbar };
+{
+  /* <span class="cart--icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20.5 7.2H16.2V6.9C16.3 4.5 14.4 2.5 12 2.5C9.6 2.6 7.8 4.5 7.8 6.9V7.2H3.5C2.9 7.2 2.5 7.6 2.5 8.2V16.4C2.5 19.2 4.7 21.4 7.5 21.4H16.5C19.3 21.4 21.5 19.2 21.5 16.4V8.2C21.5 7.7 21.1 7.2 20.5 7.2ZM9.3 6.9C9.3 5.4 10.5 4.1 12 4C13.5 4.1 14.7 5.4 14.7 6.9V7.2H9.3V6.9ZM20 16.5C20 18.4 18.4 20 16.5 20H7.5C5.6 20 4 18.4 4 16.5V8.7H7.8V10.7C7.6 10.9 7.5 11.2 7.5 11.4C7.5 12 8 12.4 8.5 12.4C9 12.4 9.5 11.9 9.5 11.4C9.5 11.1 9.4 10.9 9.2 10.7V8.7H14.6V10.6C14.4 10.8 14.3 11.1 14.3 11.4C14.3 12 14.7 12.5 15.3 12.5C15.9 12.5 16.4 12.1 16.4 11.5C16.4 11.2 16.3 11 16.1 10.8V8.8H20V16.5Z" fill="black"></path></svg></i></span> */
+}
