@@ -12,3 +12,8 @@
 * Created local server
 * Bootstrap
 #### Website: https://nyka.netlify.app/index.html
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=almightycoder4&show_icons=true&locale=en&layout=compact" alt="almightycoder4" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=almightycoder4&show_icons=true&locale=en" alt="almightycoder4" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=almightycoder4&" alt="almightycoder4" /></p>
