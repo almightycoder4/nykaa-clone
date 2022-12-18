@@ -16,7 +16,7 @@ let postRegUser = async (url, body) => {
   window.location.href = "./login.html";
 };
 // Get and Post
-let userUrl = `https://nyka-json-server.onrender.com/nykaaRegUser`;
+let userUrl = `https://carnation-woolen-bedbug.glitch.me/nykaaRegUser`;
 let nameInput = document.querySelector("#user-name");
 let numberInput = document.querySelector("#user-number");
 let emailInput = document.querySelector("#user-email");

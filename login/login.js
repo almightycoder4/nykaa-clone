@@ -1,4 +1,4 @@
-let userUrl = `https://nyka-json-server.onrender.com/nykaaRegUser`;
+let userUrl = `https://carnation-woolen-bedbug.glitch.me/nykaaRegUser`;
 // Get
 let getRegUser = async () => {
   let res = await fetch(userUrl);

@@ -1,6 +1,6 @@
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 let data2 = async () => {
-  let url = "https://nyka-json-server.onrender.com/data";
+  let url = "https://carnation-woolen-bedbug.glitch.me/data";
   let responce = await fetch(url);
   let getdata = await responce.json();
   console.log(getdata);
@@ -67,7 +67,7 @@ function refresh() {
 //  high to low
 let dataforsort;
 let datasort = async () => {
-  let url = "https://nyka-json-server.onrender.com/data";
+  let url = "https://carnation-woolen-bedbug.glitch.me/data";
   let responce = await fetch(url);
   let getdata = await responce.json();
   dataforsort = getdata;
@@ -139,7 +139,7 @@ let displayitemssort = (data) => {
 
 let dataforsort1;
 let datasort1 = async () => {
-  let url = "https://nyka-json-server.onrender.com/data";
+  let url = "https://carnation-woolen-bedbug.glitch.me/data";
   let responce = await fetch(url);
   let getdata = await responce.json();
   dataforsort1 = getdata;
